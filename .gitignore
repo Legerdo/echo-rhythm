@@ -1,0 +1,7 @@
+node_modules
+dist
+test-results
+playwright-report
+.worktrees
+art/out
+.agents/

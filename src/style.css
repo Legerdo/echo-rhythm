@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #05040a;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  outline: none;
+  display: block;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
